@@ -1,0 +1,101 @@
+.App {
+  color: black;
+}
+
+.Board-Container {
+  padding: 40px;
+  background-color: #80a9bf;
+  color: white;
+}
+
+#Board-new {
+  padding: 36px;
+  background-color: #cbcbcb;
+  color: rgb(77, 77, 77);
+  font-size: 10px;
+}
+
+.Board-bar {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #cbcbcb;
+  display: flex;
+  align-items: center;
+}
+
+.Board-bar-inside {
+  margin-left: 25px;
+}
+
+.Task-Container {
+  width: 300px;
+}
+
+.Task-member {
+  margin-left: 200px;
+  background-color: #cbcbcb;
+}
+
+.all-tasks {
+  padding: 4px 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f4f5;
+}
+
+.task-new {
+  padding-right: 35px;
+  margin: 10px 0px;
+}
+
+.column {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  background-color: #80a9bf;
+  max-width: 300px;
+  padding: 0 10px;
+  margin: 0 10px;
+  flex-grow: 1;
+
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.search-filter {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px 25px;
+  display: flex;
+  align-items: center;
+}
+
+#set-a-member {
+  color: brown;
+}
+
+.home-allworkspace {
+  padding: 10px 20px 0px 20px;
+}
+
+#home-workspace-userinfo {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(77, 77, 77);
+  margin-bottom: 10px;
+}
+
+#home-workspace-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  color: rgb(77, 77, 77);
+  margin-bottom: 10px;
+}
+
+#workspace-info {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#workspace-info-title {
+  font-size: large;
+}
+
+#workspace-info-desc {
+  font-size: small;
+}
