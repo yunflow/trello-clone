@@ -38,8 +38,7 @@ public class TaskImpl implements TaskService {
         if (task.getDueDate() != null && task.getDueDate().isBefore(LocalDate.now())) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid due date");
         }
-        Task savedTask = this.taskRepository.save(task);
-        return savedTask;
+        return this.taskRepository.save(task);
     }
 
     public Task findById(long taskId) {
@@ -69,8 +68,7 @@ public class TaskImpl implements TaskService {
         existingTask.setDueDate(task.getDueDate());
         existingTask.setStatus(updatedStatus);
 
-        Task savedTask = taskRepository.save(existingTask);
-        return savedTask;
+        return taskRepository.save(existingTask);
     }
 
     private boolean isValidStatus(String status) {

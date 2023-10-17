@@ -1,16 +1,12 @@
 package com.group11.trello.service.implementation;
 
-import com.group11.trello.bean.Board;
 import com.group11.trello.bean.Workspace;
 import com.group11.trello.repository.WorkspaceRepository;
 import com.group11.trello.service.BoardService;
-import com.group11.trello.service.TaskService;
 import com.group11.trello.service.WorkspaceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 
 /**

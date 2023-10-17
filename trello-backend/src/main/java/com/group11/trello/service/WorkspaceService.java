@@ -1,11 +1,7 @@
 package com.group11.trello.service;
 
-import com.group11.trello.bean.Board;
-import com.group11.trello.bean.Customer;
 import com.group11.trello.bean.Workspace;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * Workspace service methods design

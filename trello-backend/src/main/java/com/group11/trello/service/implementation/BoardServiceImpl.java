@@ -1,7 +1,6 @@
 package com.group11.trello.service.implementation;
 
 import com.group11.trello.bean.Board;
-import com.group11.trello.bean.Workspace;
 import com.group11.trello.repository.BoardRepository;
 import com.group11.trello.service.BoardService;
 import com.group11.trello.service.TaskService;

@@ -1,7 +1,5 @@
 package com.group11.trello.controller;
 
-import com.group11.trello.bean.Board;
-import com.group11.trello.bean.Customer;
 import com.group11.trello.bean.Workspace;
 import com.group11.trello.service.WorkspaceService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,7 +2,6 @@ package com.group11.trello.controller;
 
 import com.group11.trello.bean.Customer;
 import com.group11.trello.bean.Task;
-import com.group11.trello.repository.TaskRepository;
 import com.group11.trello.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

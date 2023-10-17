@@ -1,7 +1,6 @@
 package com.group11.trello.controller;
 
 import com.group11.trello.bean.Board;
-import com.group11.trello.bean.Workspace;
 import com.group11.trello.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

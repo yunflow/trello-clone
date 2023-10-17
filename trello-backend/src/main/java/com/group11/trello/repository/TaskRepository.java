@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface TaskRepository extends JpaRepository<Task, Long> {
-    // Custom query methods or additional operations can be defined here
+    // Additional custom query methods or operations can be defined here
 }

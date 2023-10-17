@@ -1,10 +1,8 @@
 package com.group11.trello.bean;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
-import java.util.List;
 
 @Entity
 public class Task {
@@ -24,7 +22,7 @@ public class Task {
     public Task() {
     }
 
-    public Task(String taskName, String taskDesc,LocalDate dueDate, String status, String user) {
+    public Task(String taskName, String taskDesc, LocalDate dueDate, String status, String user) {
         this.taskName = taskName;
         this.taskDesc = taskDesc;
         this.dueDate = dueDate;

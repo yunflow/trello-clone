@@ -1,7 +1,6 @@
 package com.group11.trello.service;
 
 import com.group11.trello.bean.Board;
-import com.group11.trello.bean.Workspace;
 
 import java.util.List;
 

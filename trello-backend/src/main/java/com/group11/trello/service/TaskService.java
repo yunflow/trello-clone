@@ -3,9 +3,6 @@ package com.group11.trello.service;
 import com.group11.trello.bean.Customer;
 import com.group11.trello.bean.Task;
 import org.springframework.stereotype.Service;
-import org.springframework.web.server.ResponseStatusException;
-
-import java.util.List;
 
 /**
  * Task service methods design
